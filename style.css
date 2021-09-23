@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: dashiell bright;
+  font-size: 2vw;
+  font-weight:100;
+  list-style-position: inside;
+  background-color: #9FB6BF;
+  color:white;
+}
+#aboutme{
+color:white !important;
+background-color: #C2D2F2;
+}
+h1{
+  color:#2E4159;
+}
+h2{
+  color:#668CD9;
+}
+#mygoals{
+color:white !important;
+background-color: #222940;
+}
+h3{
+  Color: #2E4159;
+}
+#Description{
+  color:white !important;
+  background-color: #7798D9;
+}
+ul{
+  text-align: left;
+}
+p {
+color: Black;
+}
