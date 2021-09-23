@@ -8,8 +8,10 @@ body {
   color:white;
 }
 #aboutme{
-color:white !important;
-background-color: #C2D2F2;
+background-color: #9898DB;
+}
+#aboutme p{
+  color:white !important;
 }
 h1{
   color:#2E4159;
@@ -18,8 +20,10 @@ h2{
   color:#668CD9;
 }
 #mygoals{
-color:white !important;
 background-color: #222940;
+}
+#mygoals p{
+color:white !important;
 }
 h3{
   Color: #2E4159;
