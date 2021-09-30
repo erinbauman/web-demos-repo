@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: "Rosario";
+  font-size: 2vw;
+  font-weight:100;
+  list-style-position: inside;
+  background-color: #D5E8EF;
+  color:white;
+}
+#aboutme p{
+  font-size: 35px;
+  color:#455C7B;
+  background-color: #FFBC67;
+}
+#aboutme img{
+  border:200px;
+  border-color:#FFBC67;
+}
+h1{
+font-family: "Roboto";
+font-size: 60px;
+  color:#847896;
+}
+h2{
+  font-family: "Roboto";
+  color:#BE8B9C;
+  font-size:50px;
+}
+#mygoals p{
+color:#455C7B;
+font-size: 25px;
+}
+h3{
+  font-family: "Roboto";
+  Color: #AC6C82;
+  font-size: 50px;
+}
+#Description{
+  color:#455C7B;
+  font-size: 25px;
+}
+ul{
+  text-align: left;
+}
+p {
+color: Black;
+}
+a {
+  color:#FFBC67;
+}
