@@ -1,40 +1,50 @@
 body {
   text-align: center;
-  font-family: dashiell bright;
+  font-family: "Rosario";
   font-size: 2vw;
   font-weight:100;
   list-style-position: inside;
-  background-color: #9FB6BF;
+  background-color: #D5E8EF;
   color:white;
 }
-#aboutme{
-background-color: #9898DB;
-}
 #aboutme p{
-  color:white !important;
+  font-size: 35px;
+  color:#455C7B;
+  background-color: #FFBC67;
+}
+#aboutme img{
+  border:200px;
+  border-color:#FFBC67;
 }
 h1{
-  color:#2E4159;
+font-family: "Roboto";
+font-size: 60px;
+  color:#847896;
 }
 h2{
-  color:#668CD9;
-}
-#mygoals{
-background-color: #222940;
+  font-family: "Roboto";
+  color:#BE8B9C;
+  font-size:50px;
 }
 #mygoals p{
-color:white !important;
+color:#455C7B;
+font-size: 25px;
 }
 h3{
-  Color: #2E4159;
+  font-family: "Roboto";
+  Color: #AC6C82;
+  font-size: 50px;
 }
 #Description{
-  color:white !important;
-  background-color: #7798D9;
+  color:#455C7B;
+  font-size: 25px;
 }
 ul{
   text-align: left;
 }
 p {
 color: Black;
+}
+a {
+  color:#FFBC67;
 }
