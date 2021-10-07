@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang  = "en">
+<head>
+  <title> week 6 </title>
+  <link rel= "stylesheet" href= "style.css" >
+</head>
+
+<body>
+  <section id= "hero">
+      <h1 id="herotext"> Welcome to my Site! </h1>
+      <img alt = "mountain surrounded by road and trees" id="tree" src="images/mountain.jpeg">
+  </section>
+
+<section id="one">
+  <div>
+      <h2> This is my first section</h2>
+      <p> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+      <p> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. </p>
+  </div>
+  <div>
+
+
+    <section id="two">
+      <h2> This is my second section </h2>
+      <p> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+      <p> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. </p>
+    </div>
+  </section>
+
+    <section id="three">
+      <h2> This section contains a button</h2>
+      <button id="mybutton"> Click this button</button>
+      <button id="mybutton2"> Click this button</button>
+    </section>
+
+<script>
+  console.log("javascript working");
+  document.getElementById("mybutton") .addEventListener("click",function(){alert("you pushed the button")});
+  document.getElementById("mybutton2") .addEventListener("click",buttonClicked);
+  document.getElementById("hero").addEventListener("click", heroClicked);
+  function buttonClicked(){
+    alert("you pushed the button!")
+    document.getElementById("herotext").innerHTML= "You are not welcome!";
+  }
+  function heroClicked(){
+    alert("you clicked thr hero");
+  }
+</script>
+
+  </body>
+  </html>
