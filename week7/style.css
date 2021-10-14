@@ -1,0 +1,29 @@
+section{
+  background-color: #86BDF1;
+  margin: 20vh 20vw;
+  padding: 10vh 15vw;
+  border-radius: 10px;
+}
+
+button{
+  border-radius: 8px;
+  padding: 2vh 3vw;
+  float:right;
+  margin-top: 1vh;
+  background-color:#F1B47D;
+  color: white;
+}
+
+button:hover{
+  border:#223F59 solid 1px;
+}
+
+button:active{
+  color:#223F59;
+}
+
+h1{
+  font-size: 40px;
+  color:#1A64A6;
+  text-align: center;
+}

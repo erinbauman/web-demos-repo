@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<title> Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section>
+<h1 id= "quotetext"> Find an inspirational quote, click the button to begin. </h1>
+<button id="quotes"> New Quote</button>
+</section>
+
+<script>
+ const quotes =["Be yourself; everyone else is already taken", "Be the change that you wish to see in the world.","Live as if you were to die tomorrow. Learn as if you were to live forever.","We accept the love we think we deserve.","It is never too late to be what you might have been.","Life isn't about finding yourself. Life is about creating yourself."];
+ var quotecount = 0;
+
+  document.getElementById("quotes").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log("here");
+    console.log(quotes[quotecount]);
+    document.getElementById("quotetext").innerHTML= quotes[quotecount];
+    if(quotecount>=5 ){
+      quotecount = 0;
+    }
+   else{
+    quotecount++;
+  }
+  }
+</script>
+</body>
+</html>
