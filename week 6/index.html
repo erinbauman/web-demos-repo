@@ -38,7 +38,9 @@
     document.getElementById("options").innerHTML="Here are some activities for your Maroon Bells Trip. Try Hiking, Biking, Leaf peeping, camping, and taking in nature.";
   }
   function buttonClicked(){
-    document.getElementsByClassName("bye").style.backgroundColor= "black";
+    document.getElementsByClassName("bye")[0].style.display= "none";
+    document.getElementsByClassName("bye")[1].style.display= "none";
+    document.getElementsByClassName("bye")[2].style.display= "none";
   }
   function imageClicked(){
     alert("This is Maroon Bells during the peak of Fall.");
