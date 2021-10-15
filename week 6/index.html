@@ -6,24 +6,24 @@
 </head>
 
 <body>
-  <section id= "Maroonbells">
+  <section id= "Maroonbells" class= "bye">
       <h1 id="intro"> Let's learn about Maroon Bells! </h1>
       <img alt = "a lake surrounded mountains and the colors of fall" id="mountains" src="images/landscape.jpeg">
   </section>
 
-<section id="about">
+<section id="about" class="bye">
       <h2> Location of <a href= "https://en.wikipedia.org/wiki/Maroon_Bells"> Maroon Bells</a> </h2>
       <p> The Maroon Bells are two peaks in the Elk Mountains, Maroon Peak and North Maroon Peak, separated by about half a kilometer. </p>
       <p> The mountains are on the border between Pitkin County and Gunnison County, Colorado, United States, about 12 miles southwest of Aspen. </p>
 </section>
 
-<section id="things to do">
+<section id="things to do" class= "bye">
       <h2 id="options"> Things to do <a href = "https://en.wikipedia.org/wiki/Maroon_Bells">at Maroon Bells </a> </h2>
       <p> The Maroon Bells are an increasingly popular destination for the day and overnight visitors; around 300,000 people visit the Bells every season.</p>
       <p> The Maroon Bells scenic area features several hiking trails ranging from short hikes near Maroon Lake to longer overnight backpacking trips into the Maroon-Snowmass Wilderness. </p>
 </section>
 
-    <section id="actions">
+    <section id="actions" class= "bye">
       <h2> Do you want to experience Maroon Bells?</h2>
       <button id="mybutton"> Yes, I want to experience the beauty of Maroon Bells.</button>
       <button id="mybutton2"> No, I don't care for Maroon Bells.</button>
@@ -33,12 +33,12 @@
   console.log("javascript working");
   document.getElementById("mybutton").addEventListener("click", buttonOne);
   document.getElementById("mybutton2").addEventListener("click",buttonClicked);
-  document.getElementById("Maroonbells").addEventListener("click", MaroonbellsClicked);
-  function buttonClicked(){
-    alert("You will go to Maroon Bells!")
+  //document.getElementById("Maroonbells").addEventListener("click", MaroonbellsClicked);
+  function buttonOne(){
+    document.getElementById("options").innerHTML="Here are some activities for your Maroon Bells Trip. Try Hiking, Biking, Leaf peeping, camping, and taking in nature.";
   }
   function buttonClicked(){
-    alert("You're missing out.")
+    document.getElementsByClassName("bye").style.backgroundColor= "black";
   }
   function imageClicked(){
     alert("This is Maroon Bells during the peak of Fall.");
