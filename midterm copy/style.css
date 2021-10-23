@@ -1,0 +1,57 @@
+body{
+  background-color: #F2E8DF;
+  font-family: "Open Sans";
+}
+#days{
+  display: flex;
+  justify-content:center;
+  margin:auto;
+
+}
+
+.activity{
+  margin:0px 15px;
+  background-color: #F2E8DF;
+  color: #8C4F2B;
+  font-size: 18px;
+  border-radius: 10px;
+
+}
+
+#Tuesdayday,#Wednesdayday, #Thursdayday, #Fridayday{
+  display:none;
+}
+
+#things{
+  display: flex;
+  margin: 0vh 15vw 15vw;
+  padding-top: 20px;
+  border:5px solid #E8D19E;
+  border-top: none;
+}
+
+h1{
+  font-size: 60px;
+  color:#8C4F2B;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+#general{
+  font-size: 20px;
+  text-align:center;
+  font-family:"montserrat";
+  color: #A64F03;
+}
+
+h3{
+  color: #A64F03;
+  font-size: 25px;
+  text-align:center;
+  align-content: center;
+}
+
+h4{
+  text-align: center;
+font-family:
+}
