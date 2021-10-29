@@ -1,6 +1,6 @@
 body{
   background-color: #F2E8DF;
-  font-family: "Open Sans";
+  font-family: "opensans";
 }
 #days{
   display: flex;
@@ -14,7 +14,7 @@ body{
   margin:0px 15px;
   background-color: #F2E8DF;
   color: #8C4F2B;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 10px;
 
 }
@@ -25,7 +25,7 @@ body{
 
 #things{
   display: flex;
-  margin: 0vh 15vw 15vw;
+  margin: 0vh 10vw 15vw;
   padding-top: 60px;
   padding-bottom: 60px;
   border:8px solid #E8D19E;
@@ -36,7 +36,7 @@ h1{
   font-size: 60px;
   color:#8C4F2B;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "roboto";
 }
 
 #general{
@@ -50,27 +50,116 @@ h1{
 
 h3{
   color: #A64F03;
-  font-size: 30px;
+  font-size: 40px;
   text-align:center;
   align-content: center;
 }
 
 h4{
   text-align: center;
-font-family:
+font-family:"opensans";
+font-size: 20px;
 }
 
 .week{
   display: block;
   margin: auto;
-  font-size: 18px;
+  font-size: 10px;
   font-family: "montserrat";
 }
 .active{
   background-color: white;
 }
 
-.image{
-  height:15px;
-  width:18px;
+#style{
+  height:300px;
+  width:500px;
+}
+
+#journal{
+  height:300px;
+  width:500px;
+}
+
+#cook{
+  height:300px;
+  width:500px;
+}
+#yoga{
+  height:300px;
+  width:500px;
+}
+#bath{
+  height:300px;
+  width:500px;
+}
+
+#coffee{
+  height:300px;
+  width:500px;
+}
+
+#stretch1{
+  height:300px;
+  width:500px;
+}
+#candle{
+  height:300px;
+  width:500px;
+}
+#star{
+  height:300px;
+  width:500px;
+}
+#hike{
+  height:300px;
+  width:500px;
+}
+#sun{
+  height:300px;
+  width:500px;
+}
+#drive{
+  height:300px;
+  width:500px;
+}
+#flowers{
+  height:300px;
+  width:500px;
+}
+#movie{
+  height:300px;
+  width:500px;
+}
+#game{
+  height:300px;
+  width:500px;
+}
+#swim{
+  height:300px;
+  width:500px;
+}
+#mask{
+  height:300px;
+  width:500px;
+}
+#nails{
+  height:300px;
+  width:500px;
+}
+#nails{
+  height:300px;
+  width:500px;
+}
+#stretch2{
+  height:300px;
+  width:500px;
+}
+#podcast{
+  height:300px;
+  width:500px;
+}
+#massage{
+  height:300px;
+  width:500px;
 }
