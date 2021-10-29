@@ -1,4 +1,4 @@
-let days= ["Monday", "Tuesday", "Wednesday","Thursday", "Friday"];
+let days= ["Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday","Sunday"];
 let prevday;
 
 for(i=0; i<document.getElementsByClassName("activity").length; i++){
@@ -16,14 +16,14 @@ function setActive(e){
 
   prevday=document.getElementsByClassName("active")[0].id;
   if(prevday !=undefined){
-    document.getElementById(prevday).classList.toggle("active");
+    document.getElementById(prevday).classList.remove("active");
     document.getElementById(prevday + "day").style.display ="none";
   }
 console.log(prevday + " here ");
 if(e.target.tagName == "H2"){
-  e.target.parentNode.classList.toggle("active");
+  e.target.parentNode.classList.add("active");
 }else{
-  e.target.classList.toggle("active");
+  e.target.classList.add("active");
 }
 
 currentday= document.getElementsByClassName('active')[0].id;

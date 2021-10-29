@@ -7,6 +7,7 @@ body{
   justify-content:center;
   margin:auto;
 
+
 }
 
 .activity{
@@ -18,15 +19,16 @@ body{
 
 }
 
-#Tuesdayday,#Wednesdayday, #Thursdayday, #Fridayday{
+#Tuesdayday,#Wednesdayday, #Thursdayday, #Fridayday, #Saturdayday, #Sundayday{
   display:none;
 }
 
 #things{
   display: flex;
   margin: 0vh 15vw 15vw;
-  padding-top: 20px;
-  border:5px solid #E8D19E;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border:8px solid #E8D19E;
   border-top: none;
 }
 
@@ -42,11 +44,13 @@ h1{
   text-align:center;
   font-family:"montserrat";
   color: #A64F03;
+  display:block;
+  margin: auto;
 }
 
 h3{
   color: #A64F03;
-  font-size: 25px;
+  font-size: 30px;
   text-align:center;
   align-content: center;
 }
@@ -54,4 +58,19 @@ h3{
 h4{
   text-align: center;
 font-family:
+}
+
+.week{
+  display: block;
+  margin: auto;
+  font-size: 18px;
+  font-family: "montserrat";
+}
+.active{
+  background-color: white;
+}
+
+.image{
+  height:15px;
+  width:18px;
 }
