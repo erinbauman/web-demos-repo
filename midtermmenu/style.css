@@ -6,8 +6,6 @@ body{
   display: flex;
   justify-content:center;
   margin:auto;
-
-
 }
 
 .activity{
@@ -16,7 +14,6 @@ body{
   color: #8C4F2B;
   font-size: 20px;
   border-radius: 10px;
-
 }
 
 #Tuesdayday,#Wednesdayday, #Thursdayday, #Fridayday, #Saturdayday, #Sundayday{
@@ -47,7 +44,6 @@ h1{
   display:block;
   margin: auto;
 }
-
 h3{
   color: #A64F03;
   font-size: 40px;

@@ -7,6 +7,21 @@ body {
   background-color: #D5E8EF;
   color:white;
 }
+@media screen and (min-width: 600px) {
+  .element {
+    display:contents;
+    grid-template-columns: 7% auto;
+    grid-auto-flow: column;
+    grid-template-areas: "sidebar" "header"
+                         "sidebar" "body";
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size:2rem;
+    color: #58555A;
+    background-color: #D0D2F2;
+  }
 #aboutme p{
   font-size: 35px;
   color:#455C7B;
