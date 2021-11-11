@@ -12,8 +12,7 @@ body {
     display:contents;
     grid-template-columns: 7% auto;
     grid-auto-flow: column;
-    grid-template-areas: "sidebar" "header"
-                         "sidebar" "body";
+    grid-template-areas: "sidebar" "header" "sidebar" "body";
 }
 
 @media screen and (min-width: 600px) {
