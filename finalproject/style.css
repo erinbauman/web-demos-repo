@@ -1,0 +1,176 @@
+.container{
+display:grid;
+grid-template-columns: 33% 66%;
+grid-template-rows: 25% 75%;
+overflow:hidden;
+}
+
+h1,h2,nav{
+  font-family: "Cardo";
+}
+
+
+body{
+  background-color:#EFEDEB;
+}
+#bio{
+  width: 25vw;
+  align-content:center;
+  justify-content: center;
+  margin-left: 350px;
+}
+#flowers{
+  grid-column-start:2;
+  grid-row-start: 2;
+  grid-column-end:2;
+  grid-row-end: 2;
+  width: 60vw;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+.image {
+   position: relative;
+}
+
+h2 {
+   position: absolute;
+   text-align: center;
+   top: 40%;
+   left: 7%;
+   width: 80%;
+   font-family:"Cardo";
+   background-color:#6A79A6;
+   padding: 3%;
+ }
+#list{
+  font-family:"Cardo";
+  font-size: 30px;
+  color: black;
+}
+
+#general{
+  grid-column-start: 2;
+  grid-column-end:2;
+  grid-row-start: 1;
+  grid-row-end:2;
+  background-color:#EFEDEB;
+  height:auto;
+  align-
+
+}
+#side{
+  display:grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color:#D2D2DB;
+}
+
+#experience{
+  display:grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#logo{
+  grid-column-start:span 1;
+  grid-row-start: 1;
+  width: 20vw;
+  justify-content:center;
+  margin-top: 15%;
+}
+
+nav{
+grid-row-start: 2;
+display:flex;
+flex-direction: column;
+background-color:#D2D2DB;
+font-family:"cardo";
+}
+
+nav a{
+  margin: 10% 5%
+
+}
+#resume{
+  display:grid;
+  width: 50vw;
+}
+
+.right p{
+  background-color:#6A79A6;
+  padding: 10%;
+}
+
+.design{
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+}
+
+.intro p{
+  background-color: #6A79A6;
+}
+
+.top{
+display:flex;
+justify-content: center;
+margin-top: 0px;
+}
+
+.top p{
+  background-color: #6A79A6;
+  padding: 10%;
+}
+.flowers{
+  width:10vw;
+  vertical-align: middle;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.one{
+  align-content: center;
+  margin-left: 300px;
+  margin-top: -30px;
+  background-color: #6A79A6;
+}
+.two{
+  align-content: center;
+  margin-left: 300px;
+  margin-top: 5px;
+  background-color: #6A79A6;
+}
+.three{
+  align-content: center;
+  margin-left: 300px;
+  margin-top: 25px;
+  background-color:#6A79A6;
+
+}
+.top{
+  background-color: #EFEDEB;
+  padding: none;
+}
+
+.examples{
+  align-content: center;
+  margin-left: 300px;
+  margin-top: auto;
+  top: auto;
+}
+
+.begin{
+  align-content: center;
+  margin-left: 300px;
+}
+
+.begin h1{
+  align-content: center;
+  justify-content: center;
+}
