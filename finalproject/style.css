@@ -17,7 +17,7 @@ body{
   width: 25vw;
   align-content:center;
   justify-content: center;
-  margin-left: 350px;
+  margin-left: 90px;
 }
 #flowers{
   grid-column-start:2;
@@ -31,7 +31,10 @@ body{
 .image {
    position: relative;
 }
-
+a:visited {
+ text-decoration: none;
+ color: black;
+}
 h2 {
    position: absolute;
    text-align: center;
@@ -44,7 +47,7 @@ h2 {
  }
 #list{
   font-family:"Cardo";
-  font-size: 30px;
+  font-size: 20px;
   color: black;
 }
 
@@ -55,7 +58,8 @@ h2 {
   grid-row-end:2;
   background-color:#EFEDEB;
   height:auto;
-  align-
+  margin-left: 300px;
+  font-size: 30px;
 
 }
 #side{
@@ -69,6 +73,7 @@ h2 {
   display:grid;
   grid-column-start: 2;
   grid-column-end: 3;
+  display:right;
 }
 
 #logo{
@@ -76,7 +81,8 @@ h2 {
   grid-row-start: 1;
   width: 20vw;
   justify-content:center;
-  margin-top: 15%;
+  margin-top: 8%;
+  margin-left: 15%;
 }
 
 nav{
@@ -123,10 +129,6 @@ justify-content: center;
 margin-top: 0px;
 }
 
-.top p{
-  background-color: #6A79A6;
-  padding: 10%;
-}
 .flowers{
   width:10vw;
   vertical-align: middle;
@@ -153,8 +155,10 @@ margin-top: 0px;
   background-color:#6A79A6;
 
 }
+.new{
+  float:right;
+}
 .top{
-  background-color: #EFEDEB;
   padding: none;
 }
 
@@ -170,7 +174,9 @@ margin-top: 0px;
   margin-left: 300px;
 }
 
-.begin h1{
+#start{
   align-content: center;
   justify-content: center;
+  font-family: "Cardo";
+  font-size: 15px;
 }

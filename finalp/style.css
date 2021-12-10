@@ -1,0 +1,176 @@
+#tab{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows:100vh;
+}
+nav a{
+  margin: 9% 5%
+}
+nav{
+  display:flex;
+  flex-direction:column;
+  background-color:#D2D2DB;
+  font-family:"cardo";
+}
+#left, #right{
+  width:100%;
+  height:100%;
+  border: 2px black solid;
+}
+#right{
+  background-color: #EFEDEB;
+  display:flex;
+  flex-direction: column;
+}
+/* Home page*/
+#left{
+background-color:#D2D2DB;
+}
+#logo{
+width: 16vw;
+justify-content:center;
+margin-top: 9%;
+margin-left: 11%;
+}
+#list{
+  font-family:"Cardo";
+  font-size: 20px;
+  color: black;
+}
+#bio{
+  width: 15vw;
+  display:block;
+  margin:auto;
+  justify-content: center;
+  border:8px #6A79A6 solid;
+}
+#general{
+  height:auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Cardo";
+  justify-content: center;
+}
+#flowers{
+  display:block;
+  width: 35vw;
+  margin: auto;
+  margin-top: 40px;
+  }
+  .image {
+     position: relative;
+  }
+  a:visited {
+   text-decoration: none;
+   color: black;
+ }
+   h2 {
+      position: absolute;
+      text-align: center;
+      top: 30%;
+      left: 7%;
+      width: 80%;
+      font-family:"Abhaya Libre";
+      font-weight: lighter;
+      background-color:#6A79A6;
+      padding: 2%;
+      color: white;
+    }
+/*Internship page*/
+
+.examples{
+  align-content: center;
+  /* margin-left: 300px; */
+  margin: auto;
+  top: auto;
+  text-align: center;
+}
+#start{
+  align-content: center;
+  justify-content: center;
+  font-family: "Cardo";
+  font-size: 15px;
+}
+
+.begin h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.begin p{
+  text-align:center;
+  background-color: #6A79A6;
+  padding: 3%;
+  font-size: 20px;
+  color:white;
+  font-family: "Abhaya Libre";
+}
+
+
+/* Experience page*/
+
+  .right p{
+    background-color:#6A79A6;
+    padding: 10%;
+  }
+  #resume{
+    display:grid;
+    width: 50vw;
+    margin:auto;
+  }
+  #experience{
+    margin: auto;
+    text-align: center;
+  }
+  #presume{
+  width:1000px;
+  margin:auto;
+  }
+
+/* Design page*/
+.design{
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Cardo";
+}
+
+.intro p{
+  background-color: #6A79A6;
+  text-align: center;
+}
+
+/*contact page*/
+.flowers{
+  width:5vw;
+  vertical-align: middle;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.new{
+  text-align: center;
+  font-family: "Cardo";
+  font-size: 20px;
+
+}
+
+.new p{
+  background-color: #6A79A6;
+  padding:2%;
+  font-family: "Abhaya Libre";
+  font-size: 45px;
+  color: white;
+}
+
+.one{
+  text-align: center;
+}
+.top{
+  text-align: center;
+}
